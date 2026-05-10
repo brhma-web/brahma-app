@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f2eb;
+    color: #2c2a29;
+    font-family: "Outfit", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: #2c2a29;
+    color: #f5f2eb;
+}
+
+.font-display {
+    font-family: "Cormorant Garamond", ui-serif, Georgia, serif;
+    font-feature-settings: "liga", "dlig";
+}
+
+.font-body {
+    font-family: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Paper grain overlay */
+.paper-grain {
+    position: relative;
+}
+.paper-grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.17 0 0 0 0 0.16 0 0 0 0 0.16 0 0 0 0.28 0'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.45'/></svg>");
+    opacity: 0.55;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+/* Marquee outline text */
+.marquee-outline {
+    -webkit-text-stroke: 1px #2c2a29;
+    color: transparent;
+}
+
+.marquee-filled {
+    color: #2c2a29;
+}
+
+/* Custom underline animation */
+.link-underline {
+    position: relative;
+    display: inline-block;
+}
+.link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.link-underline:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* Custom cursor dot for interactive sections */
+.cursor-arty {
+    cursor: crosshair;
+}
+
+/* Keyframes */
+@keyframes floaty {
+    0%,
+    100% {
+        transform: translateY(0) rotate(-2deg);
+    }
+    50% {
+        transform: translateY(-12px) rotate(2deg);
+    }
+}
+.animate-floaty {
+    animation: floaty 7s ease-in-out infinite;
+}
+
+@keyframes slow-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate-slow-spin {
+    animation: slow-spin 30s linear infinite;
+}
+
+@layer base {
+    :root {
+        --background: 43 26% 94%;
+        --foreground: 20 4% 16%;
+        --card: 43 26% 94%;
+        --card-foreground: 20 4% 16%;
+        --popover: 43 26% 94%;
+        --popover-foreground: 20 4% 16%;
+        --primary: 10 38% 47%;
+        --primary-foreground: 43 26% 94%;
+        --secondary: 100 8% 50%;
+        --secondary-foreground: 43 26% 94%;
+        --muted: 38 23% 86%;
+        --muted-foreground: 20 4% 35%;
+        --accent: 38 23% 86%;
+        --accent-foreground: 20 4% 16%;
+        --destructive: 0 70% 45%;
+        --destructive-foreground: 43 26% 94%;
+        --border: 28 11% 79%;
+        --input: 28 11% 79%;
+        --ring: 20 4% 16%;
+        --radius: 0.25rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
