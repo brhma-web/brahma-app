@@ -12,67 +12,72 @@ import {
 const METAL_IMG1 = "/assets/metal-muse-1_result.png";
 const METAL_IMG2= "/assets/metal-muse-3_result.png";
 const METAL_IMG3 = "/assets/metal-muse-2_result.png";
+const METAL_IMG4 = "/assets/Metal_hero.JPEG";
+
 const MANDALA_IMG1 = "/assets/Mandala-art-1_result.png";
 const MANDALA_IMG2= "/assets/Mandala-art-2_result.png";
 const MANDALA_IMG3 = "/assets/Mandala-art-3_result.png";
-const CYANOTYPE_IMG1 = "/assets/Cyanotype1_result.JPEG";
+const MANDALA_IMG4 = "/assets/mandala_art_hero.PNG";
+
+
+const CYANOTYPE_IMG1 = "/assets/Cyanotype1_result.jpg";
 const CYANOTYPE_IMG2 = "/assets/Cyanotype2_result.png";
 const CYANOTYPE_IMG3 = "/assets/Cyanotype3_result.png";
+const CYANOTYPE_IMG4 = "/assets/Cyanotype_hero.JPEG";
 
 const PRODUCTS = [
     {
         id: "metal-muse-kit",
         name: "Metal Muse Experience Kit",
         sub: "DIY · guided · fun",
-        price: "₹ 1,499",
+        price: "₹ 999",
         blurb:
-            "Bring the Metal Muse studio home. A complete, step-by-step kit to try metal embossing on aluminium and copper sheets — everything you need to coax raised motifs out of metal with your own hands. Designed for first-timers, generous enough for repeat sessions.",
-        included: [
-            "1 mm aluminium sheets · 5 nos.",
-            "Copper foil sheet · 2 nos.",
-            "Stylus & embossing tools · set of 4",
-            "Pre-printed motif templates · 6 designs",
-            "Foam mat, tracing paper, masking tape",
-            "Hand-folded instruction zine",
+              "A slow, creative embossing experience designed to help you create beautiful metal artwork at home. As a mindful slow creative escape, the kit includes everything you need to emboss, frame, and create your own keepsake—no art experience needed. Perfect for gifting or creating something truly personal.",
+            included: [
+            "Embossing materials + tools",
+            "Design templates",
+            "Backing sheet",
+            "4 × 6 Frame",
+            "Step-by-step guided tutorial + QR resource library",
         ],
-        cover: METAL_IMG2,
-        images: [METAL_IMG1, METAL_IMG2 ,METAL_IMG3],
+        cover: METAL_IMG4,
+        images: [METAL_IMG1, METAL_IMG2 ,METAL_IMG3 , METAL_IMG4],
     },
     {
         id: "cyanotype-memoir",
         name: "Cyanotype Memoir",
         sub: "timeless · custom · gifting",
-        price: "₹ 2,499",
+        price: "₹ 1,200",
         blurb:
-            "A bespoke cyanotype keepsake — your photograph or sketch, hand-printed on cotton paper using sunlight and Prussian blue chemistry. Each print is one of one, signed and dated. Made to last decades, made to be gifted.",
-        included: [
-            "Hand-printed cyanotype · 8\" × 10\"",
+            "Cyanotype Memoir transforms your cherished photographs into handcrafted blueprints on a cotton paper using one of history's earliest photographic printing techniques. Created through the timeless cyanotype process, each piece preserves memories in deep Prussian blue — making every artwork personal, nostalgic, and one of a kind. Simply share your photograph with us, and we’ll turn it into a collectible, handcrafted art print.",
+      included: [
+            "Hand-printed cyanotype print",
             "Acid-free, archival cotton paper",
-            "Signed by the studio printer",
-            "Optional walnut frame add-on",
+            "Framed according to preference",
             "Wrapped in handmade paper sleeve",
             "Personal note card",
         ],
-        cover: CYANOTYPE_IMG3,
-        images: [ CYANOTYPE_IMG1, CYANOTYPE_IMG2, CYANOTYPE_IMG3],
+        cover: CYANOTYPE_IMG4,
+        images: [ CYANOTYPE_IMG1, CYANOTYPE_IMG2, CYANOTYPE_IMG3, CYANOTYPE_IMG4],
     },
     {
         id: "art-therapy-mandala",
         name: "Art Therapy — Mandala Colouring Book",
         sub: "relaxing · DIY · fun",
-        price: "₹ 799",
+        price: "₹ 599",
         blurb:
-            "An unhurried colouring book of original mandalas, designed in-house at Brhma. Perforated pages, generous margins and a paper that drinks colour beautifully. Made for slow afternoons, quiet evenings and anyone who needs to think a little less.",
+             "A thoughtfully created adult colouring book designed to help you slow down, relax, and reconnect with yourself through art. Filled with hand-illustrated mandala patterns by Shrea Porwal, each page invites you into a calming creative experience that eases stress, declutters thoughts, and brings moments of joy and mindfulness. Made for quiet evenings, mindful breaks, and creative self-care—this book is your personal space to pause, colour, and feel at peace. Pre-book now and experience the calm of absolute art therapy.",
         included: [
-            "60 unique mandala illustrations",
-            "Perforated, frame-ready pages",
-            "Smooth 200 gsm uncoated paper",
-            "Lay-flat thread binding",
-            "Studio-printed, locally bound in Indore",
-            "Gift wrap on request",
+            "Hand-illustrated mandalas by Shrea Porwal",
+            "Premium 250 GSM thick paper",
+            "Ideal for watercolors, markers & brush pens",
+            "Perforated pages for easy tear-out",
+            "Perfect for framing or gifting",
+            "Calming quotes on every few pages",
+            "Designed for calm, clarity & self-expression"
         ],
-        cover: MANDALA_IMG1,
-        images: [ MANDALA_IMG1, MANDALA_IMG2, MANDALA_IMG3],
+        cover: MANDALA_IMG4,
+        images: [ MANDALA_IMG1, MANDALA_IMG2, MANDALA_IMG3, MANDALA_IMG4],
     },
 ];
 

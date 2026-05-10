@@ -28,7 +28,7 @@ const EXPERIENCES = [
         tags: ["Wellbeing", "Expressive Arts"],
         blurb:
             "A guided session using paint, paper and play as tools to slow down, reflect and release — art as a quiet form of care.",
-        img: "/assets/job_brhma-workshops_result.png",
+        img: "/assets/art_therapy.jpg",
         ig: "https://www.instagram.com/reel/DOIoSvSjNA-/",
     },
     {
@@ -37,7 +37,7 @@ const EXPERIENCES = [
         tags: ["Forest Bathing", "Outdoor"],
         blurb:
             "A Japanese forest-bathing ritual reimagined for Indian landscapes — walking slowly, noticing deeply, sketching what stays.",
-        img: "/assets/shinrin-yoku_result.jpg",
+        img: "/assets/shrinrin_yoku.jpg",
         ig: "https://www.instagram.com/reel/C5yiJpqR0-r/",
     },
     {
@@ -46,7 +46,7 @@ const EXPERIENCES = [
         tags: ["Intention-Setting", "Collage"],
         blurb:
             "A slow, reflective afternoon of magazine clippings, typography and colour — piecing together a personal collage of where you're headed, and why.",
-        img: "/assets/vision-board_result.png",
+        img: "/assets/hero.webp",
         ig: "https://www.instagram.com/reel/DUPn2ylEYJs/",
     },
 ];
