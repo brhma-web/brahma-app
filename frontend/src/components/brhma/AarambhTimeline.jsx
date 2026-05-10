@@ -32,7 +32,7 @@ const EDITIONS = [
     {
         year: "2021",
         edition: "IV",
-        img: "/assets/aarrambh-2021_result.png",
+        img: "/assets/aarmbh2021.png",
         offsetClass: "md:mt-16",
     },
     {
@@ -44,7 +44,7 @@ const EDITIONS = [
     {
         year: "2023",
         edition: "VI",
-        img: "/assets/aarambh-2023_result.png",
+        img: "/assets/aarmbh2023.png",
         offsetClass: "md:mt-20",
     },
     {

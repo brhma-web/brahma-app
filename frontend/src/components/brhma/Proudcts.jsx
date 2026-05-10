@@ -12,7 +12,7 @@ import {
 const METAL_IMG1 = "/assets/metal-muse-1_result.png";
 const METAL_IMG2= "/assets/metal-muse-3_result.png";
 const METAL_IMG3 = "/assets/metal-muse-2_result.png";
-const METAL_IMG4 = "/assets/Metal_hero.JPEG";
+const METAL_IMG4 = "/assets/Metal_hero(1).png";
 
 const MANDALA_IMG1 = "/assets/Mandala-art-1_result.png";
 const MANDALA_IMG2= "/assets/Mandala-art-2_result.png";
@@ -20,10 +20,10 @@ const MANDALA_IMG3 = "/assets/Mandala-art-3_result.png";
 const MANDALA_IMG4 = "/assets/mandala_art_hero.PNG";
 
 
-const CYANOTYPE_IMG1 = "/assets/Cyanotype1_result.jpg";
+const CYANOTYPE_IMG1 = "/assets/Cyanotype1_result(1).jpg";
 const CYANOTYPE_IMG2 = "/assets/Cyanotype2_result.png";
 const CYANOTYPE_IMG3 = "/assets/Cyanotype3_result.png";
-const CYANOTYPE_IMG4 = "/assets/Cyanotype_hero.JPEG";
+const CYANOTYPE_IMG4 = "/assets/Cyanotype_hero(1).jpg";
 
 const PRODUCTS = [
     {
@@ -135,7 +135,7 @@ const ProductDialog = ({ open, onOpenChange, product }) => {
                                         <img
                                             src={src}
                                             alt={`${product.name} ${idx + 1}`}
-                                            className="w-full h-full object-cover"
+                                            className="w-full h-full  object-cover"
                                         />
                                     </div>
                                 ))}
@@ -303,7 +303,7 @@ const Products = () => {
                                 <img
                                     src={p.cover}
                                     alt={p.name}
-                                    className="w-full h-full object-cover transition-transform duration-[1400ms] group-hover:scale-[1.05]"
+                                    className="w-full h-full object-cover transition-transform scale-[1.08] duration-[1400ms] group-hover:scale-[1.12]"
                                     loading="lazy"
                                 />
                                 <span className="absolute top-3 left-3 bg-[#F5F2EB]/90 backdrop-blur px-3 py-1 text-[10px] uppercase tracking-[0.24em]">
