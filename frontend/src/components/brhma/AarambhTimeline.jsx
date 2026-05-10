@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 // 8 past editions (2018–2025), 9th in 2026.
 // Pictures keep their NATURAL aspect ratios — layout is intentionally assorted.
 const AARAMBH_2026_IMG =
-    "/assets/aarambh-2026.png";
+    "/assets/aarmbh2026.png";
 
 const EDITIONS = [
     {
@@ -20,7 +20,7 @@ const EDITIONS = [
     {
         year: "2019",
         edition: "II",
-        img: "/assets/aarambh-2019_result.png",
+        img: "/assets/img2019.PNG",
         offsetClass: "md:mt-12",
     },
     {
@@ -57,7 +57,7 @@ const EDITIONS = [
     {
         year: "2025",
         edition: "VIII",
-        img: "/assets/aarambh-2025_result.png",
+        img: "/assets/aarmbh2025.png",
         offsetClass: "md:mt-14",
     },
 ];
@@ -216,7 +216,7 @@ const AarambhTimeline = () => {
                                     src={AARAMBH_2026_IMG}
                                     alt=""
                                     aria-hidden
-                                    className="absolute inset-0 w-full h-full object-cover opacity-25 pointer-events-none"
+                                    className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
                                 />
                                 {/* warm wash to keep text readable */}
                                 <div className="absolute inset-0 bg-[#F5F2EB]/55 pointer-events-none" />
