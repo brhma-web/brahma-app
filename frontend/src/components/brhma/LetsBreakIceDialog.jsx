@@ -11,7 +11,8 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const baseURL = process.env.REACT_APP_BACKEND_URL || "";
+const API = `${baseURL.replace(/\/$/, "")}/api`;
 
 const countWords = (s) =>
     s

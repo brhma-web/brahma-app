@@ -7,7 +7,7 @@
 # Dependencies
 backend/.env
 frontend/.env
-frontend/public/assets
+
 node_modules/
 /node_modules
 /.pnp
