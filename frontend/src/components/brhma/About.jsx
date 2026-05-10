@@ -21,17 +21,16 @@ const About = () => {
                     className="col-span-12 md:col-span-9 font-display text-3xl md:text-4xl lg:text-[2.75rem] font-light leading-[1.2] tracking-tight space-y-8"
                 >
                     <p>
-                        <span className="text-[#A65A4B]">Brhma</span> is a
-                        multidisciplinary design studio curating an art space
-                        and community in India, with a strong presence in
-                        Indore.
+                        <span className="text-[#A65A4B]">Brhma</span> is a multidisciplinary design
+                         studio shaping artistic and cultural 
+                        experiences in India.
                     </p>
                     <p>
-                        We craft{" "}
-                        <em className="italic">unique artistic, cultural,</em>{" "}
-                        social and lifestyle experiences that bring like-minded
-                        individuals together through engaging, immersive,
-                        meaningful activities.
+                        Based in Indore{" "}
+                        <em className="italic"> BRHMA curates immersive workshops,</em>{" "}
+                        creative gatherings, installations, and experience-led conscious products.
+                         They merge art, culture, design, and community into thoughtful contemporary experiences, creating spaces for
+                         meaningful human connections. 
                     </p>
                 </motion.div>
             </div>

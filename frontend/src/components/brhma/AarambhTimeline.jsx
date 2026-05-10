@@ -53,8 +53,7 @@ const EDITIONS = [
         img: "/assets/aarambh-2024_result.png",
         offsetClass: "md:mt-0",
         note:
-            "Students of the Gurukul at Sri Sri Omkareshwar Ashram made their own little Ganeshas. As always, we ran a commercial workshop for our fundraising initiative — only this year, we did two.",
-    },
+            "This year, the students of The Art of Living Gurukual at Sri Sri Omkareshwar Ashram made their own little Ganeshas. As every year we also held our commercial workshops to raise funds for the initiative. " },
     {
         year: "2025",
         edition: "VIII",
@@ -112,11 +111,10 @@ const AarambhTimeline = () => {
                             <strong className="font-normal text-[#2C2A29]">
                                 Aarambh
                             </strong>{" "}
-                            is where Brhma began — our flagship social initiative
-                            that turns a day of art into scholarships and
-                            educational support for underprivileged students.
-                            Eight editions in, a little world of makers-with-a-cause
-                            has quietly taken shape around it.
+                             as the word suggests has been the beginning for Brhma. 
+                            Our flagship social initiative revolves around turning a day of art and devotion 
+                            into a means of raising educational funds and support for the underprivileged. 
+                            Eight editions in: a decade of culture, fun and impact
                         </motion.p>
                     </div>
                 </div>

@@ -34,11 +34,11 @@ const Hero = () => {
                     }}
                     className="font-display font-light leading-[1.02] tracking-tight text-4xl sm:text-5xl md:text-7xl lg:text-[5.5rem] max-w-5xl"
                 >
-                    A multidisciplinary design studio that's{" "}
+                     A multidisciplinary design studio{" "}
                     <em className="italic text-[#A65A4B]">
-                        building an artistic cultural community
+                        building a community through art,
                     </em>
-                    , curating unique experiences.
+                   culture, and creative exploration.  
                 </motion.h1>
 
                 <motion.div
