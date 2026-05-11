@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Nav from "@/components/brhma/Nav";
 import Hero from "@/components/brhma/Hero";
 import About from "@/components/brhma/About";
@@ -9,6 +9,23 @@ import AarambhTimeline from "@/components/brhma/AarambhTimeline";
 import Products from "@/components/brhma/Proudcts";
 
 const Landing = () => {
+
+    useEffect(() => {
+        const hash = window.location.hash;
+
+        if (hash) {
+            setTimeout(() => {
+                const element = document.querySelector(hash);
+
+                if (element) {
+                    element.scrollIntoView({
+                        behavior: "smooth",
+                    });
+                }
+            }, 100);
+        }
+    }, []);
+
     return (
         <main
             data-testid="landing-page"
@@ -17,7 +34,7 @@ const Landing = () => {
             <Nav />
             <Hero />
             <About />
-            <AarambhTimeline/>
+            <AarambhTimeline />
             <Experiences />
             <Collaborate />
             <Products />

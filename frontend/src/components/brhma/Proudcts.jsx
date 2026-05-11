@@ -258,7 +258,7 @@ const Products = () => {
 
     return (
         <section
-            id="products"
+            id="product"
             data-testid="products-section"
             className="relative px-6 md:px-10 py-20 md:py-28 border-t border-[#D1C9C1]"
         >
