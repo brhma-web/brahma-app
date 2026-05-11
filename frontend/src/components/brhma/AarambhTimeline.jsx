@@ -34,6 +34,8 @@ const EDITIONS = [
         edition: "IV",
         img: "/assets/aarmbh2021.png",
         offsetClass: "md:mt-16",
+        note:
+              "We started hosting our commercial workshop from this year to add another way, for us to raise more funds for our initiative."
     },
     {
         year: "2022",

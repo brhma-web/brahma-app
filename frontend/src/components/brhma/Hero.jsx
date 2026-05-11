@@ -60,7 +60,7 @@ const Hero = () => {
                     </a>
                   
                     <div className="absolute bottom-4 left-4 md:bottom-6 md:left-6 bg-[#F5F2EB]/90 backdrop-blur px-3 py-1.5 text-[10px] uppercase tracking-[0.24em]">
-                        Vision Board Session · Indore
+                        Did bangkok - Feature
                     </div>
                 </motion.div>
             </div>

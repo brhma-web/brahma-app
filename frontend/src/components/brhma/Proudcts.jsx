@@ -12,7 +12,7 @@ import {
 const METAL_IMG1 = "/assets/metal-muse-1_result.png";
 const METAL_IMG2= "/assets/metal-muse-3_result.png";
 const METAL_IMG3 = "/assets/metal-muse-2_result.png";
-const METAL_IMG4 = "/assets/Metal_hero(1).png";
+const METAL_IMG4 = "/assets/productimg.png";
 
 const MANDALA_IMG1 = "/assets/Mandala-art-1_result.png";
 const MANDALA_IMG2= "/assets/Mandala-art-2_result.png";
@@ -30,14 +30,14 @@ const PRODUCTS = [
         id: "metal-muse-kit",
         name: "Metal Muse Experience Kit",
         sub: "DIY · guided · fun",
-        price: "₹ 999",
+        price: "₹ 1,200",
         blurb:
               "A slow, creative embossing experience designed to help you create beautiful metal artwork at home. As a mindful slow creative escape, the kit includes everything you need to emboss, frame, and create your own keepsake—no art experience needed. Perfect for gifting or creating something truly personal.",
             included: [
             "Embossing materials + tools",
             "Design templates",
             "Backing sheet",
-            "4 × 6 Frame",
+            "4'' × 6'' Frame",
             "Step-by-step guided tutorial + QR resource library",
         ],
         cover: METAL_IMG4,
@@ -47,7 +47,7 @@ const PRODUCTS = [
         id: "cyanotype-memoir",
         name: "Cyanotype Memoir",
         sub: "timeless · custom · gifting",
-        price: "₹ 1,200",
+        price: "₹ 1,100",
         blurb:
             "Cyanotype Memoir transforms your cherished photographs into handcrafted blueprints on a cotton paper using one of history's earliest photographic printing techniques. Created through the timeless cyanotype process, each piece preserves memories in deep Prussian blue — making every artwork personal, nostalgic, and one of a kind. Simply share your photograph with us, and we’ll turn it into a collectible, handcrafted art print.",
       included: [
@@ -303,7 +303,7 @@ const Products = () => {
                                 <img
                                     src={p.cover}
                                     alt={p.name}
-                                    className="w-full h-full object-cover transition-transform scale-[1.08] duration-[1400ms] group-hover:scale-[1.12]"
+                                    className="w-full h-full object-cover transition-transform  duration-[1400ms] group-hover:scale-[1.03]"
                                     loading="lazy"
                                 />
                                 <span className="absolute top-3 left-3 bg-[#F5F2EB]/90 backdrop-blur px-3 py-1 text-[10px] uppercase tracking-[0.24em]">
